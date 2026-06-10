@@ -44,7 +44,7 @@ def procesar_y_resolver(problema: ProblemaFluido):
 
 
 # --- EJEMPLO DE USO / PRUEBAS DEL ECOSYSTEMA ---
-if _name_ == "_main_":
+if __name__ == "__main__":
     print("=== PROBANDO ARQUITECTURA LIMPIA ===")
     
     # Ejemplo 1: Queremos calcular el Volumen Molar del Propano (V = None)
